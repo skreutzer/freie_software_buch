@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html2epub-config>
+  <in>
+    <inFile title="Titel">./titel.html</inFile>
+    <inFile title="Technische Notwendigkeit">./technische_notwendigkeit.html</inFile>
+    <inFile title="Lizenz">./license.html</inFile>
+    <xhtmlSchemaValidation>false</xhtmlSchemaValidation>
+    <!-- javax.xml.stream.isValidating: Turns on/off implementation specific DTD validation. -->
+    <xhtmlReaderDTDValidation>false</xhtmlReaderDTDValidation>
+    <!-- javax.xml.stream.isNamespaceAware: Turns on/off namespace processing for XML 1.0 support. -->
+    <xhtmlReaderNamespaceProcessing>true</xhtmlReaderNamespaceProcessing>
+    <!-- javax.xml.stream.isCoalescing: Requires the processor to coalesce adjacent character data. -->
+    <xhtmlReaderCoalesceAdjacentCharacterData>true</xhtmlReaderCoalesceAdjacentCharacterData>
+    <!-- javax.xml.stream.isReplacingEntityReferences: replace internal entity references with their replacement text and report them as characters. -->
+    <!-- Always true! -->
+    <!-- javax.xml.stream.isSupportingExternalEntities: Resolve external parsed entities. -->
+    <xhtmlReaderResolveExternalParsedEntities>true</xhtmlReaderResolveExternalParsedEntities>
+    <!-- javax.xml.stream.supportDTD: Use this property to request processors that do not support DTDs. -->
+    <xhtmlReaderUseDTDNotDTDFallback>false</xhtmlReaderUseDTDNotDTDFallback>
+  </in>
+  <out>
+    <outDirectory>./out/</outDirectory>
+    <metaData>
+      <title>Freie Software</title>
+      <creator>Stephan Kreutzer</creator>
+      <subject>Freie Software, digitale Grundrechte</subject>
+      <description>Allgemeinverständliche Einführung in das Thema „Freie Software“.</description>
+      <publisher>Stephan Kreutzer</publisher>
+      <identifier>freie_software</identifier>
+      <source>skreutzer.de</source>
+      <language>de</language>
+      <coverage>Technische Notwendigkeit</coverage>
+      <rights>Copyright (C) 2014 Stephan Kreutzer, GNU Affero General Public License 3 or any later version.</rights>
+    </metaData>
+  </out>
+</html2epub-config>
