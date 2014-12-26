@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html2epub1-config>
+  <out>
+    <metaData>
+      <title>Freie Software</title>
+      <creator>Stephan Kreutzer</creator>
+      <subject>Freie Software, digitale Grundrechte</subject>
+      <description>Allgemeinverständliche Einführung in das Thema „Freie Software“.</description>
+      <publisher>Stephan Kreutzer</publisher>
+      <identifier>freie_software</identifier>
+      <source>https://github.com/skreutzer/freie_software_buch</source>
+      <language>de</language>
+      <coverage>Technische Notwendigkeit</coverage>
+      <rights>Copyright (C) 2014 Stephan Kreutzer, GNU Affero General Public License 3 or any later version.</rights>
+    </metaData>
+  </out>
+</html2epub1-config>
